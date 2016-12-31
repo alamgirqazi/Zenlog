@@ -38,7 +38,6 @@ public class ChatActivity extends AppCompatActivity {
     private String temp_key;
 
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

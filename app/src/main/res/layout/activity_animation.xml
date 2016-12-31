@@ -48,7 +48,7 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Zenlog is real-time group chat built for teams."
+        android:text="Zenlog is a real-time group chat built for teams."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
