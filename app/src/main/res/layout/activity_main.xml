@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.alamgirqazi.zenlog.MainActivity">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="16dp">-->
+
+     <!---->
+
+        <!--&lt;!&ndash; Layout for content is here. This can be a RelativeLayout  &ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+
+
+        <!--<TextView-->
+            <!--android:text="User Login"-->
+            <!--android:textSize="53px"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textView"-->
+            <!--android:layout_above="@+id/linearLayout"-->
+            <!--android:layout_alignRight="@+id/zenlog"-->
+            <!--android:layout_alignEnd="@+id/zenlog"-->
+            <!--android:layout_alignLeft="@+id/zenlog"-->
+            <!--android:layout_alignStart="@+id/zenlog" />-->
+        <EditText
+            android:layout_margin="15px"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:id="@+id/txtPassword"
+            android:layout_margin="15px"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Register User!"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="@color/colorAccent"
+
+            android:layout_margin="15px"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"/>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:textAlignment="center"
+        android:text="Already using ZenLog?"
+        android:id="@+id/txtViewAlreadyUsing"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/txtViewSignIn" />
+
+    <EditText
+        android:text="Log In"
+        android:id="@+id/txtViewSignIn"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_marginRight="59dp"
+        android:textColor="#2196F3"
+        android:layout_marginEnd="59dp"
+        android:layout_alignBaseline="@+id/txtViewAlreadyUsing"
+        android:layout_alignBottom="@+id/txtViewAlreadyUsing"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zenlog"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp" />
+
+    <TextView
+        android:text="User Register"
+        android:textSize="53px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignRight="@+id/txtViewSignIn"
+        android:layout_alignEnd="@+id/txtViewSignIn"
+        android:layout_marginRight="52dp"
+        android:layout_marginEnd="52dp" />
+
+
+</RelativeLayout>

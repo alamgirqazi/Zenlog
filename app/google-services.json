@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "672122751543",
+    "firebase_url": "https://zenlog-a8e64.firebaseio.com",
+    "project_id": "zenlog-a8e64",
+    "storage_bucket": "zenlog-a8e64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672122751543:android:05985e0986b63ad7",
+        "android_client_info": {
+          "package_name": "io.github.alamgirqazi.zenlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672122751543-nn1jq359sji533a0atg3lr9r9qqcp3tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUG51r0JXEJtE4yMXcaSoctI8iaZ7_sF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672122751543-nn1jq359sji533a0atg3lr9r9qqcp3tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
