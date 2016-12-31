@@ -59,13 +59,13 @@ public class ChatroomActivity extends AppCompatActivity {
 
             case R.id.action_about:
 
-                startActivity(new Intent(getApplicationContext(),AboutActivity.class));
+                startActivity(new Intent(getApplicationContext(),AnimationActivity.class));
                 return true;
 
-            case R.id.action_settings:
-
-                startActivity(new Intent(getApplicationContext(),Main2Activity.class));
-                return true;
+//            case R.id.action_settings:
+//
+//                startActivity(new Intent(getApplicationContext(),AboutActivity.class));
+//                return true;
 
 
             case R.id.action_github:
@@ -106,7 +106,7 @@ public class ChatroomActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setTitle("Chat Groups!");
+        getSupportActionBar().setTitle("Chat Groups");
 
 
         arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,list_of_rooms);

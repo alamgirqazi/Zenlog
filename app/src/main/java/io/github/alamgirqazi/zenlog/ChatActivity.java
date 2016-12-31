@@ -45,13 +45,13 @@ public class ChatActivity extends AppCompatActivity {
 
             case R.id.action_about:
 
-                startActivity(new Intent(getApplicationContext(),AboutActivity.class));
+                startActivity(new Intent(getApplicationContext(),AnimationActivity.class));
                 return true;
-
-            case R.id.action_settings:
-
-                startActivity(new Intent(getApplicationContext(),Main2Activity.class));
-                return true;
+//
+//            case R.id.action_settings:
+//
+//                startActivity(new Intent(getApplicationContext(),AboutActivity.class));
+//                return true;
 
 
             case R.id.action_github:
@@ -108,9 +108,9 @@ public class ChatActivity extends AppCompatActivity {
 
         user_name = user.getEmail();
 
-        int  index = user_name.indexOf("@");
-        if (index > 0)
-            user_name = user_name.substring(0, index);
+//        int  index = user_name.indexOf("@");
+//        if (index > 0)
+//            user_name = user_name.substring(0, index);
 
 
         room_name= getIntent().getExtras().get("room_name").toString();

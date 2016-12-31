@@ -7,6 +7,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -24,7 +26,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private FirebaseAuth mAuth;
     private TextView txtViewUsername;
     private Button btnLogout;
-private DatabaseReference databaseReference;
+    private DatabaseReference databaseReference;
     private EditText txtCity, txtFullname;
     private Button btnSave;
     private Button btnChat;
@@ -40,13 +42,13 @@ private DatabaseReference databaseReference;
 
             case R.id.action_about:
 
-                startActivity(new Intent(getApplicationContext(),AboutActivity.class));
+                startActivity(new Intent(getApplicationContext(),AnimationActivity.class));
                 return true;
 
-   case R.id.action_settings:
-
-       startActivity(new Intent(getApplicationContext(),Main2Activity.class));
-       return true;
+//   case R.id.action_settings:
+//
+//       startActivity(new Intent(getApplicationContext(),AnimationActivity.class));
+//       return true;
 
 
             case R.id.action_github:
@@ -62,7 +64,6 @@ private DatabaseReference databaseReference;
                 Toast.makeText(ProfileActivity.this, "Logging out",
 
                         Toast.LENGTH_SHORT).show();
-                finish();
                 startActivity(new Intent(this,LoginActivity.class));
             default:
                 // If we got here, the user's action was not recognized.
@@ -103,6 +104,7 @@ private DatabaseReference databaseReference;
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.animation);
 
 
         mAuth = FirebaseAuth.getInstance();
@@ -130,11 +132,11 @@ FirebaseUser user = mAuth.getCurrentUser();
         if (index > 0)
             input = input.substring(0, index);
 
-        getSupportActionBar().setTitle("Welcome " + input + " !");
+        getSupportActionBar().setTitle("Welcome " + input);
 
-
-        txtViewUsername = (TextView) findViewById(R.id.txtViewUsername);
-        txtViewUsername.setText("Welcome " + input + " !");
+//
+//        txtViewUsername = (TextView) findViewById(R.id.txtViewUsername);
+//        txtViewUsername.setText("Welcome " + input + " !");
 
 
 

@@ -9,10 +9,10 @@
         android:title="@string/action_settings"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/action_settings"
-        android:title="Settings"
-        app:showAsAction="never"/>
-    <!--android:icon="@drawable/ic_search"-->
+    <!--<item android:id="@+id/action_settings"-->
+        <!--android:title="Settings"-->
+        <!--app:showAsAction="never"/>-->
+    <!--&lt;!&ndash;android:icon="@drawable/ic_search"&ndash;&gt;-->
 
 
     <item android:id="@+id/action_github"

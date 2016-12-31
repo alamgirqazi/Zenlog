@@ -20,16 +20,13 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".ProfileActivity" />
         <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity android:name=".ChatroomActivity" />
         <activity android:name=".ChatActivity" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".GithubActivity"></activity>
+        <activity android:name=".GithubActivity" />
+        <activity android:name=".AnimationActivity"></activity>
     </application>
 
 </manifest>
