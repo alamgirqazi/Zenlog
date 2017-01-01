@@ -1,3 +1,5 @@
+ <img src="https://github.com/alamgirqazi/Zenlog/blob/master/app/img/ic_launcher.png" width="50" height="50" /> 
+ 
 # Zenlog is a real-time group chat built for teams.
 
 
