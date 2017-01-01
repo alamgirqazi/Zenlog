@@ -4,10 +4,11 @@
 
 Register:
 
-![Zenlog -  Register](https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_register.png =100x20)
-
+<img src="https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_register.png" width="200" height="200" />
 
 Login: 
 
-![Zenlog -  Login](https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_login.png "Zenlog -  Register")
+<img src="https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_login.png" width="200" height="200" />
+
+
 
