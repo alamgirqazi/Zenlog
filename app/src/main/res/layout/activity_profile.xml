@@ -51,12 +51,21 @@
             android:id="@+id/btnChat"/>
 
         <Button
-            android:text="Log Out"
+            android:text="Set up Profile Information"
             style="@style/Widget.AppCompat.Button.Colored"
             android:backgroundTint="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnLogout" />
+            android:id="@+id/btnUserInfo" />
+
+
+        <!--<Button-->
+            <!--android:text="Log Out"-->
+            <!--style="@style/Widget.AppCompat.Button.Colored"-->
+            <!--android:backgroundTint="@color/colorAccent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/btnLogout" />-->
 
     </LinearLayout>
 

@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,9 +25,11 @@
             android:label="@string/title_activity_settings" />
         <activity android:name=".ChatroomActivity" />
         <activity android:name=".ChatActivity" />
-        <activity android:name=".AboutActivity" />
         <activity android:name=".GithubActivity" />
-        <activity android:name=".AnimationActivity"></activity>
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".UserInfoActivity">
+
+        </activity>
     </application>
 
 </manifest>

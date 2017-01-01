@@ -30,6 +30,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private EditText txtCity, txtFullname;
     private Button btnSave;
     private Button btnChat;
+    private Button btnUserInfo;
     private Toast toast;
     private Toolbar toolbar;
     private long lastBackPressTime = 0;
@@ -140,12 +141,13 @@ FirebaseUser user = mAuth.getCurrentUser();
 
 
 
-        btnLogout = (Button) findViewById(R.id.btnLogout);
+        //btnLogout = (Button) findViewById(R.id.btnLogout);
+        btnUserInfo = (Button) findViewById(R.id.btnUserInfo);
         btnChat = (Button) findViewById(R.id.btnChat);
 
 btnChat.setOnClickListener(this);
-btnLogout.setOnClickListener(this);
-//btnSave.setOnClickListener(this);
+//btnLogout.setOnClickListener(this);
+btnUserInfo.setOnClickListener(this);
 
     }
 
@@ -182,16 +184,23 @@ btnLogout.setOnClickListener(this);
             mAuth.signOut();
             finish();
             startActivity(new Intent(this,LoginActivity.class));
-        }        if(v==btnChat)
+        }
+
+        if(v==btnChat)
         {
 //            finish();
             startActivity(new Intent(this,ChatroomActivity.class));
         }
+if(v==btnUserInfo)
+        {
+//            finish();
+            startActivity(new Intent(this,UserInfoActivity.class));
+        }
 
-            if(v==btnSave)
-            {
-                saveUserInfo();
-            }
+//            if(v==btnSave)
+//            {
+//                saveUserInfo();
+//            }
 
     }
 }

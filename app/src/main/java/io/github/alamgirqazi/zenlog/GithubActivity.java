@@ -32,7 +32,7 @@ public class GithubActivity extends AppCompatActivity {
 
     /** Opens the URL in a browser */
     private void openURL() {
-        webview.loadUrl("https://github.com/alamgirqazi");
+        webview.loadUrl("https://github.com/alamgirqazi/Zenlog");
         webview.requestFocus();
     }
 
