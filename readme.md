@@ -4,7 +4,7 @@
 
 Register:
 
-![Zenlog -  Register](https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_register.png "Zenlog -  Register")
+![Zenlog -  Register](https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_register.png =100x20)
 
 
 Login: 
