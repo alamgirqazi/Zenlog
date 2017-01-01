@@ -1,8 +1,13 @@
-Zenlog is a real-time group chat built for teams.
+## Zenlog is a real-time group chat built for teams.
 
-### How to Win Friends and Infuence People
+### Screenshots of apps
 
-![Zenlog Register](ZenLog/app/img/zenlog_register.png "How to Win Friends and Infuence People - Dale Carnegie")
-D:\ZenLog\app\img\zenlog_register.png
+Register:
 
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Zenlog -  Register](https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_register.png "Zenlog -  Register")
+
+
+Login: 
+
+![Zenlog -  Login](https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_login.png "Zenlog -  Register")
+
