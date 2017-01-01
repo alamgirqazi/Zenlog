@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
 
-    android:background="@drawable/chatbackground7"
+    android:background="@drawable/wall1"
     tools:context="io.github.alamgirqazi.zenlog.ProfileActivity">
 
 

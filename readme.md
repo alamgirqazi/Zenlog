@@ -28,5 +28,9 @@
 
 <img src="https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_group.png" width="200" height="350" />
 
+#### Chatroom:
+
+<img src="https://github.com/alamgirqazi/Zenlog/blob/master/app/img/zenlog_chatroom.png" width="200" height="350" />
+
 
 

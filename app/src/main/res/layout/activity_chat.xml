@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@mipmap/whatsapp1"
+android:background="@drawable/wall1"
     tools:context="io.github.alamgirqazi.zenlog.ChatActivity">
 
     <android.support.design.widget.AppBarLayout
